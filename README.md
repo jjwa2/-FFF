@@ -25,23 +25,32 @@
   - Oracle 11g DataBase
   - CoolSMS,  Kakao Api
 
+# 프로젝트 일정 및 데이터베이스 ERD
+
+ <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/프로젝트 일정.png?raw=true"/></p>
+
+
+
+ <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/프로젝트 ERd.png?raw=true"/></p>
+
+
+
+
+
 - 담당 구현 파트
 
-  - 프로젝트 개발환경 구축, 설계 참여
+  - 프로젝트 개발환경 구축, 설계 참여 일정관리, 프로젝트 취합.
 
-  - 메인 페이지 구현
+  - 펀딩 페이지, 관리자 페이지 구현
 
-  - Header 메인 메뉴 디자인 및 구성(검색)
+  - 펀딩 카테고리 페이지 구현(펀딩리스트. 장르별 정렬. 펀딩 마감처리.)
 
-  - 상품 카테고리 페이지 구현(상품리스트, 페이징, 검색)
+  - 펀딩 상세페이지 구현 (펀딩에 따른 후원금액 , 후원인원 증가. 티어별 가격 및 해택에 따른 결제 기능 구현, 결제 정보 생성) 
+  
+  - 펀딩, 공연예매 결제 기능 구현 (카카오 단편결제 API를 이용한 결제시스템 구현)
 
-  - 상품 상세페이지 구현 (수량에 따른 가격증가, 좋아요, 장바구니, 
+  - GitHub 레포지토리 생성
 
-    구매하기, 리뷰, 상품문의)
-
-  - GitHub 레포지토리 전체 관리
-
-  - 팀원들의 Git Conflict 해결
 
     
 
@@ -168,10 +177,4 @@
 
 
 
-# 프로젝트 일정 및 데이터베이스 ERD
 
- <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/프로젝트 일정.png?raw=true"/></p>
-
-
-
- <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/프로젝트 ERd.png?raw=true"/></p>
