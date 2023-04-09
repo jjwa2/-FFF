@@ -1,6 +1,6 @@
 # FFF(FunFondFund)
 
-<p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/프로젝트FFF.png?raw=true"/></p>
+<p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/프로젝트FFF2.png?raw=true"/></p>
 
 인천일보 아카데미에서 진행한 팀 프로젝트 입니다.
 
