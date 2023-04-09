@@ -4,7 +4,7 @@
 
 인천일보 아카데미에서 진행한 팀 프로젝트 입니다.
 
-음악 아티스트 펀딩 사이트 입니다..
+음악 아티스트 펀딩 사이트 입니다.
 
 
 
@@ -81,9 +81,9 @@
 # Implementation
 
 - #### 펀딩 리스트
-- <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/펀딩리스트1.gif?raw=true"/></p>
+  
   - **펀딩 리스트 출력 **
-
+    <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/펀딩리스트1.gif?raw=true"/></p>
 
 
     1. isotope 플러그인을 사용하여 장르별 정렬 기능 구현.
@@ -93,10 +93,11 @@
        펀딩 목록들 페이지에 출력.
 
   - **펀딩 마감처리 및 펀딩 정보 출력**
-<p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/펀딩 체크.png?raw=true"/></p>
+    <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/펀딩 체크.png?raw=true"/></p>
 
 
     1. Oracle 배치 프로시저, 스케줄러를 사용하여 펀딩 마감처리, 후원 성공여부 판단.
+    
     2. Java의 DecimalFormat클래스를 사용하여 천단위 콤마(금액 표기하기) 표기
 
 
@@ -105,62 +106,60 @@
 
 
 
-- #### 상품 카테고리
+- #### 펀딩 상세 페이지
 
-  <img src="https://github.com/77kkyu/Style_Is_You/blob/master/src/main/webapp/file/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%ED%99%94%EB%A9%B4.png?raw=true" width="370" /><img src="https://github.com/77kkyu/Style_Is_You/blob/master/src/main/webapp/file/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%ED%99%94%EB%A9%B42.png?raw=true" width="370"/>
+    <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/펀딩 상세페이지.png?raw=true"/></p>
 
-  <img src="https://github.com/77kkyu/Style_Is_You/blob/master/src/main/webapp/file/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%ED%99%94%EB%A9%B41.png?raw=true" width="370" />
+    <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/펀딩 상세페이지2.png?raw=true"/></p>
 
-  
 
   - **카테고리별 검색, 리스트, 순서, 페이징** 
-    1. Mybatis 동적 쿼리문을 이용하여 하나의 쿼리문으로 카테고리별 검색, 리스트, 순서, 페이징을 한 번에 처리를 하고 JsonView를 설정하여 Json형태로   데이터를 가져와 Ajax 통신으로 상품 리스트를 구성합니다
+    1. Mybatis 쿼리문을 이용하여 펀딩 게시글의 상세정보를 가져오고 JsonView를 설정하여 Json형태로  데이터를 가져와 Ajax 통신으로 펀딩 상세페이지를 구성합니다.
 
  
 
 ------
 
-- #### 상품 상세보기1
 
-  <p align="center"><img src="https://github.com/77kkyu/Style_Is_You/blob/master/src/main/webapp/file/%EB%94%94%ED%85%8C%EC%9D%BC1.png?raw=true"/></p>
+- #### 펀딩
 
-  - **상품 추가 및 삭제 기능**
+  <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/후원 티어1.png?raw=true"/></p>
 
-    1. Jquery를 사용하여 선택한 상품 추가 및 원하는 상품 삭제 가능.
-    2. Jquery를 사용하여 추가한 상품 수량 증가 및 감소 시 가격 실시간 동적 변경.
-    3. 중복되는 상품 유효성 체크 완료.
+  - **펀딩 상세페이지 정보 업데이트 및 예외**
 
-  - **좋아요, 장바구니, 구매하기 기능**
+    1. Java File 클래스를 이용하여 해당하는 펀딩리스트의 포스터, 브로셔 이미지 주소를 가져와 화면에 표기.
+    2. Mybatis 쿼리문을 이용하여 사용하여 후원 이후 해당 펀딩의 데이터베이스 현재 후원금액 및 후원인원 정보를 실시간으로 업데이트.
+    3. Jquery를 사용하여 비회원, 펀딩 마감 이후 후원하기 기능 Block 처리
 
-    1. ♥클릭 시 해당 상품을 MyPage 좋아요 게시판에 추가.
-    2. 장바구니 클릭 시 선택한 상품이 장바구니 리스트에 등록됩니다. 그리고 팝업창이 뜹니다. 상품을 선택 안 할 시 유효성 체크 완료. 
-    3. 구매하기 버튼 클릭 시 해당 상품과 같이 주문페이지로 이동.
+  - **펀딩 결제**
 
-  - **Navigation Bar**
+    1. Jquery를 사용하여 티어별 후원하기 클릭 시 해당하는 티어의 해택 정보 및 가격 가져오게 구현.
+    2. 카카오페이 버튼 클릭시 카카오페이 단편결제 팝업창 표시. QR를 통하여 결제 진행. 
+    3. 구매 완료시 카카오페이를 통한 결제완료 정보를  Json형태로 데이터를 가져와 Ajax 결제정보를 팝업창에 표기.
 
-    1. Bootstrap을 사용하여 메뉴 바를 구성하였고 버튼 클릭 시 해당 내용으로 이동할 수 있게 메뉴 바를 수정하였습니다. 
-
-  - **상세정보**
-
-    1. CkEditor를 사용하여 상품의 이미지, 내용을 등록시켰습니다. 상세정보에 나오는 이미지와 글씨는 DataBase에 저장된 내용을 그대로 추출하여 사용했습니다. 
 
        
 
-- #### 상품 상세보기2
 
-  <p align="center"><img src="https://github.com/77kkyu/Style_Is_You/blob/master/src/main/webapp/file/%EB%94%94%ED%85%8C%EC%9D%BC2.png?raw=true"/></p>
+- #### 공연 예매 리스트
+  
+  - **공연예매 리스트 출력 **
+    <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/공연리스트1.png?raw=true"/></p>
 
-  - **상품 문의 기능**
-    1. JsonView를 설정해 Json형태로 데이터를 가져와 Ajax 통신으로 리스트 구성.
-    2. Toggle을 사용하여 제목을 클릭 시 보이기, 숨기기 기능 구성.
-  - **Review 기능**
-    1. JsonView를 설정해 Json형태로 데이터를 가져와 Ajax 통신으로 리스트 구성.
-    2. Toggle을 사용하여 제목을 클릭 시 보이기, 숨기기 기능 구성. 
-    3. 리뷰를 등록할 때 CkEditor를 사용하여 DataBase에 저장된 이미지와 내용 출력.
-    4. Ajax 및 Jquery로 페이징 구성.
 
- 
+    1. isotope 플러그인을 사용하여 장르별 정렬 기능 구현.
 
+    2. JsonView를 설정해 Json형태로 데이터를 가져와 Ajax통신으로
+
+       펀딩 목록들 페이지에 출력.
+
+  - **펀딩 마감처리 및 펀딩 정보 출력**
+    <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/펀딩 체크.png?raw=true"/></p>
+
+
+    1. Oracle 배치 프로시저, 스케줄러를 사용하여 펀딩 마감처리, 후원 성공여부 판단.
+    
+    2. Java의 DecimalFormat클래스를 사용하여 천단위 콤마(금액 표기하기) 표기
 
 
 - # CRUD
