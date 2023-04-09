@@ -82,9 +82,9 @@
 
 - #### 펀딩 리스트
 
-<p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/펀딩리스트1.gif?raw=true"/></p>
-
   - **펀딩 리스트 출력 **
+
+<p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/펀딩리스트1.gif?raw=true"/></p>
 
     1. isotope 플러그인을 사용하여 장르별 정렬 기능 구현.
 
