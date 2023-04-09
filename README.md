@@ -48,26 +48,34 @@
 
 - **메인**
 
-  <p align="center"><img src="https://github.com/77kkyu/Style_Is_You/blob/master/src/main/webapp/file/stu_main.gif?raw=true"/></p>
+  <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/메인화면.gif?raw=true"/></p>
+  
+  
+  
+  - **회원가입**
+
+  <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/휴대폰인증.gif?raw=true"/></p>
+
+
+
+
+- **펀딩** 
+
+   <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/메인화면.gif?raw=true"/></p>
 
 
 
 
 
-- **상품 카테고리** 
+- **공연 예매**
 
-  <p align="center"><img src="https://github.com/77kkyu/Style_Is_You/blob/master/src/main/webapp/file/stu_cate.gif?raw=true"/></p>
-
-
+ <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/메인화면.gif?raw=true"/></p>
 
 
 
-- **상품 상세**
+- **아티스트 SNS**
 
-  <p align="center"><img src="https://github.com/77kkyu/Style_Is_You/blob/master/src/main/webapp/file/stu_detail.gif?raw=true"/></p>
-
-
-
+  <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/메인화면.gif?raw=true"/></p>
 
 
 # Implementation
