@@ -61,7 +61,7 @@
 
 - **펀딩** 
 
-   <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/메인화면.gif?raw=true"/></p>
+   <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/펀딩상세.gif?raw=true"/></p>
 
 
 
@@ -69,13 +69,13 @@
 
 - **공연 예매**
 
- <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/메인화면.gif?raw=true"/></p>
+ <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/공연예매.gif?raw=true"/></p>
 
 
 
 - **아티스트 SNS**
 
-  <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/메인화면.gif?raw=true"/></p>
+  <p align="center"><img src="https://github.com/jjwa2/-FFF/blob/master/이미지파일/sns페이지.gif?raw=true"/></p>
 
 
 # Implementation
