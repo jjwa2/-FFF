@@ -10,7 +10,7 @@
   <!-- QNA 관련 CSS 링크 -->
   <link rel="stylesheet" href="/resources/style/qna.css">
   
-  <!-- 풋터에 필요한 CDN -->
+  <!-- 풋터에 필요한 CDN 1-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Work+Sans:ital,wght@0,600;0,800;1,900&display=swap" rel="stylesheet">
