@@ -3,7 +3,7 @@
 <%@ include file="/WEB-INF/views/include/navigation.jsp"%>
 <%@ page import="java.text.NumberFormat"%>
 <%
-	// 현재후원 금액 포맷 배정현0410
+	// 현재후원 금액 포맷 신동준0947
 int currentAmountNum = Integer.parseInt(request.getAttribute("currentAmount").toString());
 // NumberFormat 클래스 생성
 NumberFormat nf = NumberFormat.getNumberInstance();
